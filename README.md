@@ -29,7 +29,7 @@ CloudPulse is intentionally minimal, focusing on clarity, correctness, and engin
 
 🖥 Cross-platform builds (Linux / macOS / Windows)
 
-🧼 No external dependencies — standard library only
+🧼 No external dependencies, standard library only
 
 🧠 What This Demonstrates
 Concept	Implementation
@@ -97,4 +97,4 @@ Can be copied directly onto a server, VM, or container image
 CloudPulse helped me understand why Go excels in DevOps and infrastructure tooling:
 predictable behavior, low overhead, native concurrency, and simple deployment.
 
-This project reflects how I approach engineering problems — build small, build correctly, and optimize for real-world use cases.
+This project reflects how I approach engineering problems build small, build correctly, and optimize for real-world use cases.
