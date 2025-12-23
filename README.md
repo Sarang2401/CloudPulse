@@ -45,7 +45,7 @@ cloudpulse/
 ├── go.mod
 └── README.md
 
-## ⚙️ Configuration
+⚙️ Configuration
 
 config/targets.json
 
