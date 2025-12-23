@@ -44,20 +44,19 @@ cloudpulse/
 │   └── targets.json       # API endpoints to monitor
 ├── go.mod
 └── README.md
-
 ⚙️ Configuration
-
 config/targets.json
+
+JSON
 
 {
   "targets": [
-    "[https://api.github.com](https://api.github.com)",
-    "[https://api.coindesk.com/v1/bpi/currentprice.json](https://api.coindesk.com/v1/bpi/currentprice.json)",
-    "[https://httpstat.us/200](https://httpstat.us/200)",
-    "[https://httpstat.us/503](https://httpstat.us/503)"
+    "https://api.github.com",
+    "https://api.coindesk.com/v1/bpi/currentprice.json",
+    "https://httpstat.us/200",
+    "https://httpstat.us/503"
   ]
 }
-
 ▶️ Running the Tool
 Run locally
 Bash
@@ -66,8 +65,8 @@ go run main.go
 Sample Output
 Plaintext
 
-✅ [https://api.github.com](https://api.github.com) | Status: 200 | Latency: 140ms
-❌ [https://httpstat.us/503](https://httpstat.us/503) | ERROR: 503 Service Unavailable
+✅ https://api.github.com | Status: 200 | Latency: 140ms
+❌ https://httpstat.us/503 | ERROR: 503 Service Unavailable
 Note: All checks are executed concurrently, not sequentially.
 
 📦 Building a Static Binary
@@ -101,5 +100,3 @@ The resulting binary requires no Go runtime, has no external dependencies, and c
 
 🏁 Takeaway
 This project helped me understand why Go is preferred for DevOps tools: predictable behavior, low overhead, easy concurrency, and simple deployment.
-
-
