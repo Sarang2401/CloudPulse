@@ -44,6 +44,11 @@ cloudpulse/
 │   └── targets.json       # API endpoints to monitor
 ├── go.mod
 └── README.md
+
+```text
+
+--- 
+
 ⚙️ Configuration
 config/targets.json
 
